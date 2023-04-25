@@ -5,7 +5,7 @@ const Form = () => {
   const user = useSelector((state)=>state.usersState)
   return (
     <div>Data de usuario
-        <h1>Ejmplo de carga de usuario</h1>
+        <h1>Carga de Ususario desde el APP</h1>
         <ul>
           <li> name: {user.name }</li>
           <li> user: {user.username} </li>
