@@ -14,7 +14,7 @@ const VideoGames = () => {
 
 
 
-  
+
   return (
     <div>
       <h1>Lista de VideoGames</h1>
@@ -24,9 +24,12 @@ const VideoGames = () => {
         return (
             <div key={i}>
                 <p>Nombre{elem.name}</p>
-                
-                <img src={elem.background_image} alt={elem.name }/>
-               
+                <p>ID{elem.id}</p>
+                <img src={elem.background_image}
+                 alt={elem.name } 
+                width={100} 
+                height={100}  />
+                <p>fin</p>
             </div>
         )
       })
