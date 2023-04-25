@@ -12,9 +12,7 @@ const VideoGames = () => {
     dispatch(getvideoGames()) ;
   },[])
 
-  // if (vGames)
-  //   console.log("videjuegos selector",vGames);
-
+  
   return (
     <div>
       <h1>Lista de VideoGames</h1>
